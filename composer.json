@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Softavis\\Bundle\\CaptchaBundle\\": ""
+      "DevOpStudio\\Bundle\\CaptchaBundle\\": ""
     },
     "exclude-from-classmap": [
       "/Tests/"
