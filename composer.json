@@ -21,23 +21,17 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": "^7.1.3"
-  },
-  "require-dev": {
-  },
-  "conflict": {
-  },
-  "suggest": {
+    "php": "^7.1.3",
+    "symfony/form": "4.4.*",
+    "symfony/validator": "4.4.*"
   },
   "autoload": {
     "psr-4": {
-      "Softavis\\Bundle\\HCaptchaBundle\\": "src/"
+      "Softavis\\Bundle\\CaptchaBundle\\": ""
     },
     "exclude-from-classmap": [
       "/Tests/"
     ]
-  },
-  "autoload-dev": {
   },
   "minimum-stability": "dev",
   "extra": {
